@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-typography {
+    white-space: pre-line;
+}
+
+.blog-post {
+	p {
+		color: #6B7280;
+		b {
+			color: black;
+		}
+	}
+}
+
+// Default styles for unordered lists (ul)
+ul {
+	list-style: disc; // Default bullet style
+	margin-left: 20px; // Adjust the left margin as needed
+	padding-left: 0; // Remove default padding
+}
+
+// Default styles for ordered lists (ol)
+ol {
+	list-style: decimal; // Default numbering style
+	margin-left: 20px; // Adjust the left margin as needed
+	padding-left: 0; // Remove default padding
+}
+
+// Style list items (li)
+li {
+	margin-bottom: 8px; // Adjust the margin between list items
+}
